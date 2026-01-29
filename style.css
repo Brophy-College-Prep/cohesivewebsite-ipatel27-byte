@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #0b0f14;
+    color: #ffffff;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(5, 10, 20, 0.95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+    color: #7aa2ff;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.hero-overlay h1 {
+    font-size: 5rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.hero-overlay p {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #cfd8e3;
+}
+
+.jet {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.jet-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.jet-overlay h1 {
+    font-size: 5rem;
+    letter-spacing: 2px;
+    color: #ff0000;
+}
+
+.jet-overlay p {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #cfd8e3;
+}
+
+.bot {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.bot-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.bot-overlay h1 {
+    font-size: 5rem;
+    letter-spacing: 2px;
+    color: #00eeff;
+}
+
+.bot-overlay p {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: #cfd8e3;
+}
+
+.droid {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.droid-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.droid-overlay h1 {
+    font-size: 4.75rem;
+    letter-spacing: 2px;
+    color: #ae00ff;
+}
+
+.droid-overlay p {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    color: #cfd8e3;
+}
+
+.about {
+    min-height: 100vh;
+    background-color: #0e1420;
+    padding: 120px 40px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.hidden {
+    display: none;
+}
